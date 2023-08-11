@@ -1,4 +1,3 @@
-from src.domain.models.users import User
 from src.presentation.controllers.controller_update_user import ControllerUpdateUser
 from tests.mocks.users_cases_mock.user_update_mock import UpdateUserMock
 
