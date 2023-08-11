@@ -7,3 +7,8 @@ repos:
         language: system
         pass_filenames: false
         stages: [commit]
+
+  - repo: https://github.com/pytest-dev/pytest
+    rev: HEAD  # Usa a versão mais atual do repositório pytest
+    hooks:
+      - id: pytest
